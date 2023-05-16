@@ -6,5 +6,9 @@
     {
         "word": "run",
         "translate": "correr"
+    },
+    {
+        "word": "let",
+        "translate": "dejar"
     }
 ]
