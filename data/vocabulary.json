@@ -1,14 +1,135 @@
 [
     {
-        "word": "play",
-        "translate": "jugar"
+        "word": "genres",
+        "translate": "géneros"
     },
     {
-        "word": "run",
-        "translate": "correr"
+        "word": "jewellery",
+        "translate": "joyería"
     },
     {
-        "word": "let",
-        "translate": "dejar"
+        "word": "earring",
+        "translate": "arete"
+    },
+    {
+        "word": "gloves",
+        "translate": "guantes"
+    },
+    {
+        "word": "disguise",
+        "translate": "ocultar/ disfrazar"
+    },
+    {
+        "word": "worn",
+        "translate": "usado"
+    },
+    {
+        "word": "stones",
+        "translate": "piedras"
+    },
+    {
+        "word": "bellow",
+        "translate": "gritar"
+    },
+    {
+        "word": "cage",
+        "translate": "jaula"
+    },
+    {
+        "word": "covered",
+        "translate": "cubierto"
+    },
+    {
+        "word": "refuse",
+        "translate": "negarse"
+    },
+    {
+        "word": "warn",
+        "translate": "advertir"
+    },
+    {
+        "word": "realize",
+        "translate": "comprender/ darse cuenta / convertir en realidad"
+    },
+    {
+        "word": "fill",
+        "translate": "llenar"
+    },
+    {
+        "word": "until",
+        "translate": "hasta"
+    },
+    {
+        "word": "board",
+        "translate": "tablero / abordar"
+    },
+    {
+        "word": "collect",
+        "translate": "recoger" 
+    },
+    {
+        "word": "still",
+        "translate": "todavía"
+    },
+    {
+        "word": "bullet",
+        "translate": "bala"
+    },
+    {
+        "word": "arrow",
+        "translate": "flecha"
+    },
+    {
+        "word": "cheat",
+        "translate": "engañar"
+    },
+    {
+        "word": "nail",
+        "translate": "clavo"
+    },
+    {
+        "word": "blend",
+        "translate": "mezclar"
+    },
+    {
+        "word": "field",
+        "translate": "campo"
+    },
+    {
+        "word": "soon",
+        "translate": "pronto"
+    },
+    {
+        "word": "chew",
+        "translate": "masticar"
+    },
+    {
+        "word": "bind",
+        "translate": "unir"
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
