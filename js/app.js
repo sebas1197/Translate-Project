@@ -14,8 +14,8 @@ function load_data() {
                 result.forEach(word => {
                     table_body.innerHTML += `
                     <tr>
+                        <td>${word.word}</td>
                         <td>
-                            ${word.word} &nbsp;&nbsp;
                             <button class="btn btn-primary btn-sm" onclick="play_audio('${word.word}')">
                                 <i class="bi bi-volume-up"></i>
                             </button>
