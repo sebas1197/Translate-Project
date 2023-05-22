@@ -106,6 +106,18 @@
     {
         "word": "bind",
         "translate": "unir"
+    },
+    {
+        "word": "beyond",
+        "translate": "más allá" 
+    },
+    {
+        "word": "ride",
+        "translate": "montar"
+    },
+    {
+        "word": "ahead",
+        "translate": "adelante"
     }
 ]
 

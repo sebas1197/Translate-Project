@@ -1,18 +1,39 @@
+let data = []
+
 load_data()
 
 function load_data() {
     try {
-
-        const table_body = document.querySelector('#table_body')
 
         fetch('data/vocabulary.json')
             .then(response => {
                 return response.json()
             })
             .then(result => {
-                table_body.innerHTML = ''
-                result.forEach(word => {
-                    table_body.innerHTML += `
+                data = shuffleArray(result)              
+                show_data()
+            })
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+  
+  
+
+function show_data() {
+    const table_body = document.querySelector('#table_body')
+
+    table_body.innerHTML = ''
+    data.forEach(word => {
+        table_body.innerHTML += `
                     <tr>
                         <td>${word.word}</td>
                         <td>
@@ -23,11 +44,7 @@ function load_data() {
                         <td>${word.translate}</td>
                     </tr>
                 `
-                })
-            })
-    } catch (error) {
-        console.log(error)
-    }
+    })
 }
 
 function play_audio(word) {
@@ -49,19 +66,8 @@ function play_audio_es(word) {
 }
 
 function play_all() {
-    try {
-
-        fetch('data/vocabulary.json')
-            .then(response => {
-                return response.json()
-            })
-            .then(result => {
-                result.forEach(word => {
-                    play_audio(word.word)
-                    play_audio_es(word.translate)
-                })
-            })
-    } catch (error) {
-        console.log(error)
-    }
+    data.forEach(word => {
+        play_audio(word.word)
+        play_audio_es(word.translate)
+    })
 }
