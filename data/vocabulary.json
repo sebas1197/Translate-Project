@@ -174,6 +174,98 @@
     {
         "word": "grocery",
         "translate": "comestibles"
+    },
+    {
+        "word": "rent",
+        "translate": "rentar"
+    },
+    {
+        "word": "already",
+        "translate": "ya"
+    },
+    {
+        "word": "trust",
+        "translate": "confianza"
+    },
+    {
+        "word": "huge",
+        "translate": "enorme / gigante / inmenso"
+    },
+    {
+        "word": "hold",
+        "translate": "sostener"
+    },
+    {
+        "word": "chief",
+        "translate": "jefe"
+    },
+    {
+        "word": "proaf",
+        "translate": "prueba / demostración / evidencia"
+    },
+    {
+        "word": "belong",
+        "translate": "pertenecer"
+    },
+    {
+        "word": "bump into",
+        "translate": "tropezar con / chocar con / encontrarse con"    
+    },
+    {
+        "word": "fit in",
+        "translate": "encajar"
+    },
+    {
+        "word": "hang on",
+        "translate": "aferrarse / agarrarse"
+    },
+    {
+        "word": "hear",
+        "translate": "escuchar"
+    },
+    {
+        "word": "heart",
+        "translate": "corazón"
+    },
+    {
+        "word": "heard",
+        "translate": "escuché"
+    },
+    {
+        "word": "turn into",
+        "translate": "convertirse en"
+    },
+    {
+        "word": "ladder",
+        "translate": "escalera"
+    },
+    {
+        "word": "get ahead",
+        "translate": "salir adelante"
+    },
+    {
+        "word": "lead to",
+        "translate": "conducir a"
+    },
+    {
+        "word": "move up",
+        "translate": "ascender"
+    },
+    {
+        "word": "inquire",
+        "translate": "preguntar"
+    },
+    {
+        "word": "recharge",
+        "translate": "recargar"
+    },
+    {
+        "word": "afford",
+        "translate": "permitirse"
+    },
+    {
+        "word": "blonde",
+        "translate": "rubia"
     }
 ]
 
